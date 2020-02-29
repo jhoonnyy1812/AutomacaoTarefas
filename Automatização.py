@@ -6,6 +6,7 @@ import speech_recognition as sr
 def ouvir_microfone(k):
     #Habilita o microfone para ouvir o usuario
     microfone = sr.Recognizer()
+    frase = ""
     with sr.Microphone() as source:
         #Chama a funcao de reducao de ruido disponivel na speech_recognition
         microfone.adjust_for_ambient_noise(source)
@@ -23,7 +24,6 @@ def ouvir_microfone(k):
     except sr.UnknownValueError:
         print("Não entendi.")
     return frase
-
 
 test1 = False
 rec_audio_resp = 0
@@ -45,3 +45,15 @@ while(test1 == False):
         test1 = True
     else:
         print("Perdão, tente novamente.")
+
+lista2 = open("destinos.txt", "r")
+y = lista2.readlines()
+
+for i in range(len(k)):
+    print(k[i])
+    print(tarefa)
+    if (tarefa == k[i].rstrip()):
+        print("Executando tarefa.")
+
+if (tarefa == k[2].rstrip()):
+    os.startfile(y[0])

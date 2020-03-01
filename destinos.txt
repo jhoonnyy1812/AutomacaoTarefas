@@ -1,1 +1,8 @@
-https://mail.google.com/mail/u/0/#inboxw
+https://mail.google.com/mail/u/0/#inbox
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Riot Games\League of Legends.lnk
+C:\Program Files (x86)\Overwolf\OverwolfLauncher.exe
+C:\Users\joaom\AppData\Local\Discord\Update.exe
+C:\Users\joaom\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Steam\Counter-Strike Global Ofensive.lnk
+
+D:\Jogos\Steam\steamapps\common\War Thunder\launcher.exe
+C:\Program Files (x86)\Steam\Steam.exe
